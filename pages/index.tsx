@@ -12,7 +12,7 @@ export default function HomePage() {
     {key: '02', name:'eyewear', value: 'glasses', rarity: '7%'}
   ]
   return (
-    <div className='m-auto flex max-w-4xl flex-col items-stretch gap-8 pt-24'>
+    <div className='m-auto pl-4 flex max-w-4xl flex-col items-stretch gap-8 pt-24'>
       <SiteHeading>nft-stats</SiteHeading>
       <div className='p-8'>
         <div className='grid grid-cols-1 gap-3 md:grid-cols-4 lg:grid-cols-6 lg:gap-3'>
